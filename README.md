@@ -5,6 +5,7 @@
 + **IWebHostEnvironment**
 + **IHostingEnvironment** (**obsolete**) (**deprecated**)
   + Kể từ .NET Core 3.0, **IHostingEnvironment** đã bị thay thế và đánh dấu là obsolete (lỗi thời). Bạn nên luôn sử dụng **IWebHostEnvironment** cho các ứng dụng web ASP.NET Core hiện đại.
+  + [Deprecated vs. Depreciated vs. Obsolete in Software Development](https://docs.google.com/document/d/156u0l8kNILlBs0V9-9g2ciHJsKT-qTeErM9RM2dpUk4)
 + Static Files Middleware
 + IFormFile
 + IOException
