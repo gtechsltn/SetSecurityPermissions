@@ -2,8 +2,9 @@
 + Thư mục wwwroot của ASP.NET Core
 + Thư mục wwwroot/Logs
 + Thư mục wwwroot/UploadFiles
-+ IWebHostEnvironment
-+ IHostingEnvironment
++ **IWebHostEnvironment**
++ **IHostingEnvironment** (**obsolete**) (**deprecated**)
+  + Kể từ .NET Core 3.0, **IHostingEnvironment** đã bị thay thế và đánh dấu là obsolete (lỗi thời). Bạn nên luôn sử dụng **IWebHostEnvironment** cho các ứng dụng web ASP.NET Core hiện đại.
 + Static Files Middleware
 + IFormFile
 + IOException
